@@ -1,10 +1,10 @@
 package aplication; //classe da mensagem do ioexception
 
-public class dbException extends RuntimeException{
+public class DbException extends RuntimeException{
 
     private static final long serialVersionUID = 1l;
 
-    public dbException(String msg){
+    public DbException(String msg){
         super(msg);
 
     }
